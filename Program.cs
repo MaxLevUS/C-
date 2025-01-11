@@ -62,7 +62,51 @@ namespace project {
             // double radius = Convert.ToDouble(Console.ReadLine());
             // double area = Math.PI * Math.Pow(radius, 2);
             // System.Console.WriteLine("Площадь круга с радиусовм {0} равна {1}", radius, area);
-    
+
+
+
+
+            // Условные конструкции
+
+            // System.Console.WriteLine("Insert a number: ");
+            // double a = Convert.ToDouble(Console.ReadLine());
+            // bool isHasCar = true;
+
+            // if(a == 4){
+            //     System.Console.WriteLine("You got it right!");
+            // }else if(a < 4){
+            //     System.Console.WriteLine("Your number is less than the one you guessed one...");
+            // }else if(a == 5 && isHasCar){
+            //     System.Console.WriteLine("User number 5 has a car...");
+            //     // if(isHasCar){
+            //     //     System.Console.WriteLine("this car is grey!");
+            //     }else if((a > 4 || isHasCar) && a < 2 ){
+            //     System.Console.WriteLine("Your number is greater than the one you guessed one...");
+            // }else{
+            //     Console.WriteLine("Incorrect number!");
+            // }
+
+
+            System.Console.WriteLine("Enter your name: ");
+            string role = Console.ReadLine();
+
+             if(role == "Admin"){
+                System.Console.WriteLine("Enter user name: ");
+                string user_name = Console.ReadLine();
+                Console.Write("Enter {0} age: ", user_name);
+                short age = Convert.ToInt16(Console.ReadLine());
+
+                if(age <= 0 || age > 99){
+                    Console.Write("Enter {0} age: ", user_name);
+                    age = Convert.ToInt16(Console.ReadLine());
+                }if(age <= 0 || age > 99){
+                    Console.Write("Error: ");
+                    age = Convert.ToInt16(Console.ReadLine());
+                }else
+                    System.Console.WriteLine("User's age is " + age);
+             }else{
+                System.Console.WriteLine("You are not an Admin");
+             }
         }
     }
 }

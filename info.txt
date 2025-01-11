@@ -1,3 +1,5 @@
+To create a new C# project in Visual Studio Code, you can use the .NET CLI commands. 
+
 Все значения в переменных можно изменять, перезаписывать. const - переопределять нельзя. 
 
 Типы данных:

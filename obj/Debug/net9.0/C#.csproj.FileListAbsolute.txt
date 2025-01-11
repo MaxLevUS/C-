@@ -12,3 +12,4 @@ C:\Users\Windows 11\Desktop\C#\obj\Debug\net9.0\refint\C#.dll
 C:\Users\Windows 11\Desktop\C#\obj\Debug\net9.0\C#.pdb
 C:\Users\Windows 11\Desktop\C#\obj\Debug\net9.0\C#.genruntimeconfig.cache
 C:\Users\Windows 11\Desktop\C#\obj\Debug\net9.0\ref\C#.dll
+C:\Users\Windows 11\Desktop\C#\obj\Debug\net9.0\C#.sourcelink.json
